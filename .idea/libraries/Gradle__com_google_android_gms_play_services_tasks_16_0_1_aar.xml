@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Android/Gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/988a0b038eb3949650f6adce80ceb4ec/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/988a0b038eb3949650f6adce80ceb4ec/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
