@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_8sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:text="@string/profile_names"
+        android:textColor="@color/colorMild"
+        android:layout-weight="4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_content"
+        android:padding="@dimen/_8sdp"
+        android:text="@string/unifreelancer_smile"
+        android:textColor="@color/colorMild"
+        android:layout_weight="6"/>
+
+</LinearLayout>
