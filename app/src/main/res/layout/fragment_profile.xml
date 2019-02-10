@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unifreelancer.signup,ProfileFragment">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_130sdp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark">
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/small_profile_image"
+            android:id="@+id/circleView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_8sdp"
+            android:textSize="@dimen/_16sdp"
+            android:text="@string/profile_name"
+            android:layout_gravity="center"
+            android:TextApperance="@style/TextAppearance.Appcompat.Body1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/country"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/country_location"/>
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>
