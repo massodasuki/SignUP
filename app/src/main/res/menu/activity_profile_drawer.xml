@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="@string/menu_profile"/>
+
+        <item android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/menu_chat"/>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_slideshow_black_24dp"
+            android:title="@string/menu_contact"/>
+
+        <item
+            android:id="@+id/nav_online"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="@string/menu_online" />
+
+    </group>
+
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="@string/menu_settings"/>
+
+            <item
+                android:id = "@+id/nav_logout"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item>
+
+</menu>

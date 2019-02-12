@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/login_button"
         android:textColor="@color/colorWhite"
-        android:text="@string/edit_profile_save"
+        android:text="@string/edit_profile_saves"
         android:textStyle="bold"
         android:background="@color/colorPrimaryDark"
         android:layout_marginTop="@dimen/_8sdp"/>
