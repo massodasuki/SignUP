@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/_16sdp"
+    android:orientation="vertical"
+    tools:context="com.unifreelancer.signup.EditProfileActivity">
+
+    <EditText
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_names"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/profile_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_country"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_phone"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_hobby"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:textSize="@dimen/_12sdp"
+        android:background="@drawable/bottom_border"
+        android:textColor="@color/colorBlack"
+        android:singleLine="true"
+        />
+
+    <Date
+        android:id="@+id/date_of_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_border"
+        android:hint="@string/edit_profile_date"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="@dimen/_12sdp"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_12sdp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:textColor="@color/colorWhite"
+        android:text="@string/edit_profile_save"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_8sdp"/>
+
+
+
+</LinearLayout>

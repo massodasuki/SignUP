@@ -29,6 +29,14 @@
     <string name="unifreelancer_smile">Unifreelancer</string>
 
 
+    <string name="edit_profile_names">Name</string>
+    <string name="edit_profile_country">Country</string>
+    <string name="edit_profile_phone">Phone Number</string>
+    <string name="edit_profile_hobby">Hobby</string>
+    <string name="edit_profile_date">Date</string>
+    <string name="edit_profile_save">SAVE EDIT</string>
+
+
 
 
 
