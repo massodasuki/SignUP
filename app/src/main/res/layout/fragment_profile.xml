@@ -30,7 +30,7 @@
             android:textSize="@dimen/_16sdp"
             android:text="@string/profile_name"
             android:layout_gravity="center"
-            android:TextApperance="@style/TextAppearance.Appcompat.Body1"/>
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
         <TextView
             android:id="@+id/country"

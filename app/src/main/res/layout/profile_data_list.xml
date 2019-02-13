@@ -11,7 +11,7 @@
         android:id="@+id/heading"
         android:text="@string/profile_names"
         android:textColor="@color/colorMild"
-        android:layout-weight="4"/>
+        android:layout_weight="4"/>
 
     <TextView
         android:layout_width="match_parent"
