@@ -41,8 +41,8 @@ public class LoginActivity extends AppCompatActivity {
             actionBar.hide();
         }
 
-        mAuth = ((FirebaseApplication)getApplication()).getFirebaseAuth();
-        ((FirebaseApplication)getApplication()).checkUserLogin(LoginActivity.this);
+        mAuth = ((FirebaseApplication)getApplicationContext()).getFirebaseAuth();
+        ((FirebaseApplication)getApplication()).checkUserLogin(getApplicationContext());
 
         loginError = (TextView) findViewById(R.id.login_error);
         emailInput = (EditText) findViewById(R.id.email);
@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         signUpText.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                        Intent signUpIntent = new Intent(LoginActivity.this, SignUpActivity.class);
+                        Intent signUpIntent = new Intent(getApplicationContext(), SignUpActivity.class);
                         startActivity(signUpIntent);
                     }
 
@@ -82,6 +82,7 @@ public class LoginActivity extends AppCompatActivity {
     }
     @Override
     public void onStart(){
+
         super.onStart();
     }
 

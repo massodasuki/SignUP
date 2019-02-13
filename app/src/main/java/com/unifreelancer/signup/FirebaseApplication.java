@@ -5,7 +5,6 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.constraint.solver.widgets.Helper;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;

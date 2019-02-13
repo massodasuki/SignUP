@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "463083819540",
+    "firebase_url": "https://signupmodule-dfc68.firebaseio.com",
+    "project_id": "signupmodule-dfc68",
+    "storage_bucket": "signupmodule-dfc68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463083819540:android:ccb9b04f1639259a",
+        "android_client_info": {
+          "package_name": "com.unifreelancer.signme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463083819540-2oqhs9bd336ada7p4os06ofiqnp4mb5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCuFagAhGIMIIOuTVNEm-qco8E5Frznvc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463083819540:android:b50a8baa26bc5af9",
+        "android_client_info": {
+          "package_name": "com.unifreelancer.signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463083819540-2oqhs9bd336ada7p4os06ofiqnp4mb5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCuFagAhGIMIIOuTVNEm-qco8E5Frznvc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
