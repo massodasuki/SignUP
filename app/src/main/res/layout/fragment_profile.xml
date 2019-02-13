@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.unifreelancer.signup,ProfileFragment">
+    tools:context="com.unifreelancer.signup.ProfileFragment">
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,10 +19,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/small_profile_image"
+            android:src="@drawable/ic_photo_library_black_24dp"
             android:id="@+id/circleView"/>
 
         <TextView
+            android:id="@+id/profile_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/_8sdp"
@@ -32,9 +33,9 @@
             android:TextApperance="@style/TextAppearance.Appcompat.Body1"/>
 
         <TextView
+            android:id="@+id/country"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/country"
             android:textSize="@dimen/_12sdp"
             android:textColor="@color/colorWhite"
             android:layout_gravity="center"
@@ -43,5 +44,13 @@
         
         
     </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/profile_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:scrollbars="none"/>
 
 </RelativeLayout>

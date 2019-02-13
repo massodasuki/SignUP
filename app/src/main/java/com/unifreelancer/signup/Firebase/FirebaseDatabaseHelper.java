@@ -10,9 +10,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import com.delaroystudios.firebaselogin.Adapters.RecyclerViewAdapter;
-import com.delaroystudios.firebaselogin.Helper.Helper;
-import com.delaroystudios.firebaselogin.UserProfile;
+import com.unifreelancer.signup.Adapters.RecyclerViewAdapter;
+import com.unifreelancer.signup.Helper.Helper;
+import com.unifreelancer.signup.UserProfile;
 
 import java.util.ArrayList;
 import java.util.HashMap;
