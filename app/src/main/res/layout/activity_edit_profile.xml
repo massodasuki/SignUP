@@ -8,7 +8,7 @@
     tools:context="com.unifreelancer.signup.EditProfileActivity">
 
     <EditText
-        android:id="@+id/profile_name"
+        android:id="@+id/edit_profile_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_profile_names"
@@ -22,7 +22,7 @@
         />
 
     <EditText
-        android:id="@+id/profile_country"
+        android:id="@+id/edit_profile_country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_profile_country"
@@ -36,7 +36,7 @@
         />
 
     <EditText
-        android:id="@+id/phone_number"
+        android:id="@+id/edit_profile_phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_profile_phone"
@@ -50,7 +50,7 @@
         />
 
     <EditText
-        android:id="@+id/hobby"
+        android:id="@+id/edit_profile_hobby"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/edit_profile_hobby"
@@ -64,7 +64,7 @@
         />
 
     <Date
-        android:id="@+id/date_of_birth"
+        android:id="@+id/edit_profile_date_of_birth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/bottom_border"
@@ -79,7 +79,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/login_button"
+        android:id="@+id/edit_profile_save_button"
         android:textColor="@color/colorWhite"
         android:text="@string/edit_profile_saves"
         android:textStyle="bold"
